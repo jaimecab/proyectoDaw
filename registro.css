@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+.title{
+    position: relative;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.layout__form{
+    position: absolute;
+    width: 360px;
+    height: 290px;
+    margin-left: 480px;
+    margin-top: 90px;
+    font-size: 1.2rem;
+    padding-left: 3.5rem;
+    padding-top: 1.8rem;
+    background-color: beige;
+    
+}
+
+.form__name{
+    color: black;
+}
+
+.form__mail{
+    margin-top: 1.5rem;
+}
+
+.form__password{
+    margin-top: 1.5rem;
+}
+
+.form__repeat--password{
+    margin-top: 1.5rem;
+}
+
+.form__btn{
+    margin-top: 1.5rem;
+    background-color: aquamarine;
+    color: black;
+    box-shadow: 0rem 0rem 0.3rem black;
+    border: none;
+}
+
+.form__btn:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0rem 0rem 0.3rem blue;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 500px;
+}
